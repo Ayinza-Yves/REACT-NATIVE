@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Mon Ayinza",
+    "slug": "MonApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LOGO.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/LOGO.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    }, 
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LOGO.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ayinza.MonApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b58d9d6-fb8f-460b-ba5d-e9880328a995"
+      }
+    }
+  }
+}
